@@ -4,6 +4,6 @@ flask>=2.3.0
 flask-cors>=4.0.0
 twilio>=8.0.0
 asyncio>=3.4.3
-python-dotenv>=1.0.0
-dataclasses>=0.8
+python-dotenv
+dataclasses
 requests>=2.31.0
