@@ -7,3 +7,4 @@ asyncio>=3.4.3
 python-dotenv
 dataclasses
 requests>=2.31.0
+gunicorn
