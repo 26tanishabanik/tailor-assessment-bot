@@ -1,0 +1,33 @@
+{
+  "roles": {
+    "Tailor": {
+      "description": "A professional role that requires high-quality stitching.",
+      "required_skills": ["Stitching"],
+      "passing_thresholds": {
+        "Stitching": {
+          "min_quality_rating": 7,
+          "required_professional_grade": ["Advanced", "Expert"],
+          "raw_pass_required": true
+        }
+      }
+    },
+    "Loader Picker": {
+      "description": "Requires accurate reading of labels.",
+      "required_skills": ["Label Reading"],
+      "passing_thresholds": {
+        "Label Reading": {
+          "min_accuracy": 95
+        }
+      }
+    },
+    "Pharmacist Assistant": {
+      "description": "Requires perfect accuracy in reading prescription labels.",
+      "required_skills": ["Label Reading"],
+      "passing_thresholds": {
+        "Label Reading": {
+          "min_accuracy": 100
+        }
+      }
+    }
+  }
+}
