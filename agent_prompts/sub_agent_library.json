@@ -1,0 +1,9 @@
+{
+  "sub_agents": [
+    {
+      "agent_name": "StitchingAssessorAgent",
+      "description": "A specialized agent that assesses stitching quality from an image.",
+      "assesses_skills": ["Stitching"]
+    }
+  ]
+}
