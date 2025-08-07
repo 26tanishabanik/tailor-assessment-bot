@@ -1,10 +1,16 @@
-Pillow>=10.0.0
-google-generativeai>=0.3.0
-flask>=2.3.0
-flask-cors>=4.0.0
-twilio>=8.0.0
-asyncio>=3.4.3
+# Core libraries
 python-dotenv
-dataclasses
-requests>=2.31.0
-gunicorn
+pillow
+requests
+streamlit
+
+# WhatsApp Integration
+flask
+twilio
+pydub
+
+# Google Cloud Speech-to-Text
+google-cloud-speech
+
+# The official Google Agent Development Kit (ADK)
+google-adk
